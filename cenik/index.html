@@ -3,10 +3,11 @@ layout: default
 ---
 
 <div class="container main">
+    {% include navigation.html %}
     <div class="row">
         <header>
-            <div class="text-center">
-                <h1 class="text-center">{{ site.title }}</h1>
+            <div class="text-md-center">
+                <h1>{{ site.title }}</h1>
             </div>
         </header>
     </div>
@@ -25,30 +26,30 @@ layout: default
                     <strong>Přepis</strong> od 150,- do 300,- Kč za NS podle stáří a náročnosti textu.
                 </li>
 
-                <li><strong>Překlad</strong> od 250,- do 400,- Kč za NS podle stáří a náročnosti textu.</li>
-
+                <li>
+                    <strong>Překlad</strong> od 250,- do 400,- Kč za NS podle stáří a náročnosti textu.
+                </li>
             </ul>
 
             <h4>Švabach</h4>
 
-            <p>
-                Přepis
-                100,- Kč za NS
-            </p>
+            <ul>
+                <li>
+                    <strong>Přepis</strong> 100,- Kč za NS
+                </li>
+                <li>
+                    <strong>Překlad</strong> od 200,- do 300,- Kč za NS podle náročnosti textu
+                </li>
+            </ul>
 
-            <p>
-                Překlad
-                Překlad od 200,- do 300,- Kč za NS podle náročnosti textu
-            </p>
-
-            <h4>Korektury českých textů</h4>
+            <h3>Korektury českých textů</h3>
 
             <p>
                 Opravy překlepů a gramatických chyb, stylistická úprava textu
                 50,- za NS
             </p>
 
-            <h4>Novodobé překlady</h4>
+            <h3>Novodobé překlady</h3>
 
             <p>
             Z němčiny do češtiny
@@ -74,7 +75,9 @@ layout: default
             </p>
 
             <h3>Forma úhrady</h3>
-            <p>převodem na účet</p>
+            <ul>
+                <li>převodem na účet</li>
+            </ul>
 
 
             <h3>Předání práce</h3>

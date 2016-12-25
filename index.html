@@ -2,10 +2,11 @@
 layout: default
 ---
 <div class="container main">
+    {% include navigation.html %}
     <div class="row">
         <header>
-            <div class="text-center">
-                <h1 class="text-center">{{ site.title }}</h1>
+            <div class="text-md-center">
+                <h1>{{ site.title }}</h1>
             </div>
         </header>
     </div>
@@ -17,6 +18,19 @@ layout: default
                 <li>Přepisy a překlady historických textů z kurentu a švabachu</li>
                 <li>Jazykové korektury českých textů</li>
             </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <img src="http://placehold.it/350x250" alt="Švabach">
+        </div>
+
+        <div class="col-md-4">
+            <img src="http://placehold.it/350x250" alt="Kurent">
+        </div>
+
+        <div class="col-md-4">
+            <img src="http://placehold.it/350x250" alt="Němčina">
         </div>
     </div>
 </div>

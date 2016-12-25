@@ -1,5 +1,5 @@
 # Site settings
-title: "Překlady a historické texty"
+title: "Překlady a přepisy historických textů"
 author: "Alena Vondrušová"
 description: "Překlady z a do němčiny, jazykové korektury, přepisy a překlady historických textů z kurentu a švabachu."
 keywords: "Překlady, překlad, německý jazyk, český jazyk, korektura, přepis, přepisy, švabach, kurent"
@@ -7,16 +7,12 @@ keywords: "Překlady, překlad, německý jazyk, český jazyk, korektura, přep
 #colophon: "© MMXIII — MMXVI by Hugo Sereno Ferreira.<br>Content available under <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/'>Creative Commons (BY-NC-SA)</a> unless otherwise noted.<br>This site is hosted at <a href='https://pages.github.com/'>Github Pages</a> and created with <a href='http://jekyllrb.com/'>Jekyll</a>."
 
 baseurl: ""
-url: "http://hugosereno.eu"
+url: "---"
 
 ico: 12345678
 bankAccount: AAA-XXXXXXXXX/YYYY
 email: alena.vondrusova@gmail.com
 phone: +420 728 232 468
-#twitter_username: ferreira_hugo
-#github_username: hugoferreira
-#linkedin_username: hugoserenoferreira
-#facebook_username: hugo.sereno.ferreira
 google-analytics: UA-69060-5-xxxx
 
 simple_search: http://google.com/search
